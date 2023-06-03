@@ -1,0 +1,10 @@
+# Формат файла: https://git-scm.com/docs/gitignore
+
+# Папки, которые не будут отправляться в репозиторий
+/engine/
+/build_vs/
+/build_linux_debug/
+
+# Игнорируем в папке game/result всё, кроме папки game_data
+/game/result/*
+!/game/result/game_data/
